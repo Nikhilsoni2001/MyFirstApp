@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgNikhilImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:padding="2dp"
+        android:src="@drawable/nikhil_soni" />
+
+
+    <TextView
+        android:id="@+id/txtHeader"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgNikhilImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Er.Nikhil Soni"
+        android:textColor="#1976d2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtOccupation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHeader"
+        android:layout_gravity="center"
+        android:text="(Android developer)"
+        android:textColor="#f44336" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtOccupation"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="nsoni19012001@gmail.com"
+        android:textColor="#1a237e" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginTop="5dp"
+        android:text="8699333207"
+        android:textColor="#0d47a1" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:background="#42a5f5"
+        android:text="Contact Me"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

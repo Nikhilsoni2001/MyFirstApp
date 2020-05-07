@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Activity Lifecycle</string>
+    <string name="my_app_name">The Avengers</string>
+    <string name="phone_no">Enter your phone no</string>
+    <string name="password">Password</string>
+    <string name="log_in_btn">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="preference_file_name">Avengers Preferennces</string>
+    <string name="log_out">Log Out</string>
+    <string name="black_panther">Black Panther</string>
+    <string name="captain_america">Captain America</string>
+    <string name="tony_stark">Tony Stark</string>
+    <string name="send">Send</string>
+    <string name="enter_message">Enter message</string>
+    <string name="tony_mail">tonystark@gmail.com</string>
+    <string name="tony_phone">+18 117 123 563</string>
+    <string name="captain_mail">captainamerica@gmail.com</string>
+    <string name="captain_phone">+18 451 155 151</string>
+    <string name="black_mail">blackpanther@gmail.com</string>
+    <string name="black_phone">+18 514 541 541</string>
+    <string name="hulk">Hulk</string>
+    <string name="hulk_mail">hulk@gmail.com</string>
+    <string name="hulk_phone">+18 024 741 151</string>
+    <string name="thor">Thor</string>
+    <string name="thor_mail">thor@gmail.com</string>
+    <string name="thor_phone">+91 971 941 151</string>
+    <string name="widow">Widow</string>
+    <string name="widow_mail">widow@gmail.com</string>
+    <string name="widow_phone">+91 945 514 553</string>
+    <string name="blankSpace" />
+</resources>
